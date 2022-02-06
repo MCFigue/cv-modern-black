@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="./images/logo.png" alt="" class="logo">
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Portafolio</a></li>
+                <li><a href="">Nosotros</a></li>
+                <li><a href="">Servicios</a></li>
+            </ul>
+            <img src="images/menu.png" class="menu-icon" >
+        </nav>
+        <div class="text-box">
+            <h1>Yo soy <span class="auto-input"></span></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum aperiam voluptatem nobis voluptates cum<br>
+                 porro est incidunt quo repellendus unde.</p>
+                 <a href="" class="btn2">Contactar</a>
+                 <a href="" class="btn">Descargar CV</a>
+        </div>
+        <img src="images/user.png" alt="" class="user-img">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input",{
+            strings: ["Anita","Architec","Egresada"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true 
+        })
+    </script>
+</body>
+</html>
